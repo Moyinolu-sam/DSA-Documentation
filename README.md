@@ -12,3 +12,9 @@ The dataset is sourced from the official FastF1 Python library, which provides a
 
 ### Tools Used
 - Python [Download Here](https://www.python.org/downloads/)
+
+### Data Cleanup
+To obtain the data, we utilized the FastF1 library. This is a Python library developed by the community and Formula 1 enthusiasts, which provides comprehensive information related to Formula 1 across all Grand Prix sessions. In addition to offering detailed telemetry data such as braking, throttle, speed, and more, it also includes radio communications, ambient temperature, pit stop data, and various other metrics. The use of this library proved to be the most accurate method for obtaining official data in a highly precise manner, allowing us to minimize the risk of errors as much as possible.
+
+### Exploratory Data Analysis
+After collecting all the data, I conducted a thorough analysis from multiple perspectives in order to explore various aspects beyond our initial assumptions. The first step was to visualize the performance trends of all drivers within a single plot, allowing me to observe the overall dataset in a unified and comparative way. The primary data analyzed consisted of the relationship between lap number and tire degradation (lap_degradation), which provided a clear view of how tire wear evolved over time for each driver.

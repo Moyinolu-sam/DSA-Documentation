@@ -18,3 +18,9 @@ After collecting all the data, I conducted a thorough analysis from multiple per
 
 <img width="1166" height="664" alt="image" src="https://github.com/user-attachments/assets/682b4018-011c-4cbd-8ca3-bff151c44687" />
 
+The graph above represents a scatter plot showing the relationship between lap number and degradation for each driver throughout the race. This visualization highlights the performance differences between medium and hard tires.
+
+In addition, another key area can be observed between laps 20 and 31, highlighted in the grey rectangle. Within this segment, it is evident that almost all drivers are running on hard compound tires. This observation aligns with race strategy logic: medium tires tend to wear out faster than harder compounds and thus require an earlier pit stop. As a result, drivers who started on medium tires were forced to switch to hard tires before lap 20.
+
+Conversely, drivers who began the race on hard tires did not yet need to pit during this phase, as the degradation rate of hard compounds is lower, making a tire change unnecessary at that stage of the race.
+

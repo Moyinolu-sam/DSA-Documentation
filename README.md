@@ -27,3 +27,5 @@ Conversely, drivers who began the race on hard tires did not yet need to pit dur
 <img width="1171" height="663" alt="image" src="https://github.com/user-attachments/assets/edf9dc61-e873-44d3-82ac-75c32892480d" />
 
 As we can see, the graph above displays the degradation values along with their frequency. The trend observed is rather particular, as it features two distinct peaks. The reason is that using two different tyre compounds results in two separate groups. Since we are unable to intervene or normalize these data due to the lack of a unified distribution, it becomes necessary to divide the data based on the type of compound used
+
+<img width="541" height="715" alt="image" src="https://github.com/user-attachments/assets/d1aa23b4-5175-4289-b9ad-98e7366b5a18" />

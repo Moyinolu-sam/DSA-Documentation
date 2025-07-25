@@ -29,3 +29,13 @@ Conversely, drivers who began the race on hard tires did not yet need to pit dur
 As we can see, the graph above displays the degradation values along with their frequency. The trend observed is rather particular, as it features two distinct peaks. The reason is that using two different tyre compounds results in two separate groups. Since we are unable to intervene or normalize these data due to the lack of a unified distribution, it becomes necessary to divide the data based on the type of compound used
 
 <img width="541" height="715" alt="image" src="https://github.com/user-attachments/assets/d1aa23b4-5175-4289-b9ad-98e7366b5a18" />
+
+The values considered for formulating the hypothesis were determined by calculating the average of the operating range for each tyre compound:
+
+Hard tyres: [0.05; 0.07] → average = 0.06
+
+Medium tyres: [0.07; 0.10] → average = 0.085
+
+Given the presence of a left-tailed distribution, we define our null hypothesis as H₀: degradation ≥ 0.06 for hard tyres, and analogously for medium tyres. Consequently, if a driver's data fails to reject the null hypothesis, we interpret this as an indication of higher degradation. Conversely, rejecting the null hypothesis suggests lower degradation.
+
+Our hypothesis is that stronger drivers tend to exhibit lower degradation levels, and we extend this expectation to the teams as well. To evaluate team performance, we assess the outcome of four hypothesis tests—two for each driver (one for each compound). A team is considered strong if a significant number of these tests result in the rejection of the null hypothesis, indicating lower degradation and, by extension, better tyre management.

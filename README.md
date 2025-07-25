@@ -15,3 +15,6 @@ To obtain the data, I  utilized the FastF1 library. This is a Python library dev
 After collecting all the data, I conducted a thorough analysis from multiple perspectives in order to explore various aspects beyond our initial assumptions. The first step was to visualize the performance trends of all drivers within a single plot, allowing me to observe the overall dataset in a unified and comparative way. The primary data analyzed consisted of the relationship between lap number and tire degradation (lap_degradation), which provided a clear view of how tire wear evolved over time for each driver.
 
 <img width="1154" height="657" alt="image" src="https://github.com/user-attachments/assets/44b5de02-1b4d-4b94-a140-79d9e3dacf12" />
+
+<img width="1166" height="664" alt="image" src="https://github.com/user-attachments/assets/682b4018-011c-4cbd-8ca3-bff151c44687" />
+
